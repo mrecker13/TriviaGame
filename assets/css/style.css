@@ -1,0 +1,28 @@
+body {
+    background-image: url('../images/attpark.jpg');
+}
+
+.container {
+    background-color: rgba(214, 141, 57, 0.8);
+    margin-top: 10%;
+    color: black;
+    text-align: center;
+    border: 5px solid black;    
+}
+
+.start-button {
+    background: black;
+    color: orange;
+    height: 100px;
+    width: 200px;
+    font-size: 24px;
+}
+
+.start-button:hover {
+    background: rgba(214, 141, 57, 0.8);
+    color: black;
+}
+
+.quiz {
+    margin-bottom: 25px;
+}

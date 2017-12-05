@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>San Francisco Giants Trivia!</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+    <link rel="reset" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="start">
+            <h1>San Francisco Giants Trivia Game!</h1>
+            <button class="start-button">Start</button>
+            <h3 id="timer"></h3>
+        </div>
+            
+        <div class="quiz">
+            <h3 class="questions">Which former Giant great has the nickname, The Say Hey Kid?</h3>
+                <form class="answers">
+                    <input type="checkbox" name="say-hey" value="buster"> Buster Posey
+                    <input class="correct" type="checkbox" name="say-hey" value="willie"> Willie Mays
+                    <input type="checkbox" name="say-hey" value="timmy"> Tim Lincecum
+                    <input type="checkbox" name="say-hey" value="mccovey"> Willie McCovey
+                </form>
+
+            <h3 class="questions">How many home runs did Barry Bonds hit in his career?</h3>
+                <form class="answers">
+                    <input type="checkbox" name="homers" value="1000"> 1000
+                    <input type="checkbox" name="homers" value="645"> 645
+                    <input type="checkbox" name="homers" value="712"> 712
+                    <input type="checkbox" name="homers" value="762"> 762
+                </form>
+        </div>
+
+        <div class="summary">
+            <h3>All done!</h3>
+            <p id="q-right">Questions right: </p>
+            <p id="q-wrong">Questions wrong: </p>
+            <p id="q-unanswered">Questions unanswered: </p>
+        </div>
+    </div>
+</body>
+</html>
